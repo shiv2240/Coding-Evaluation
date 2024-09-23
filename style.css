@@ -1,0 +1,226 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* Nav1 */
+.nav1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 15px;
+    font-size: 14px;
+}
+.nav1-1{
+    display: flex;
+    list-style-type: none;
+    margin-left: 250px;
+    gap:25px;
+}
+.nav1-2{
+    display: flex;
+    list-style-type: none;
+    margin-right: 250px;
+    gap:25px;
+}
+.h-icons{
+   margin-right: 7px;
+}
+/* Nav2 */
+.nav2{
+    display: flex;
+    list-style: none;
+    align-items: center;
+    margin-top: 20px;
+    background-color:rgb(26, 26, 26);
+    color:#fff;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    justify-content: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 18px; 
+}
+.hir-items{
+    display:flex;
+    align-items: center;
+    list-style-type: none;
+    justify-content: center;
+}
+.hir-items-1{
+    margin-right: 20px;
+    margin-left:55px;
+}
+.hiroto-logo{
+    width:150px;
+    height: 48px;
+    display: flex;
+}
+.hi-but{
+    margin-right: 55px;
+    display: flex;
+    width: 150px;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    color: black;
+    border: none;
+    cursor: pointer;
+    gap:7px;
+    letter-spacing: 2px;
+}
+/* Top-Top */
+.t-box1-img{
+    width: 1750px;
+    height:770px;
+}
+.t-box1{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.t-box1-text1 {
+    position: absolute;
+    color: rgb(240, 170, 46);
+    font-size: 1em;
+    text-align: center;
+    letter-spacing: 2px;
+    top: 20%; 
+}
+.t-box1-text2 {
+    position: absolute;
+    color: #fff;
+    font-size: 4em;
+    text-align: center;
+    top: 30%;
+    font-weight: 600;
+}
+/* Top-Bottom */
+.book-box{
+    position: absolute;
+    top:60%;
+    width: 100%;
+}
+
+table {
+    height: 100%;
+    width: 100%; 
+    max-width: 1150px;
+    background-color: #fff;
+    border-collapse: collapse;
+    margin: 0 auto;
+    font-size: 20px;
+}
+
+.input-with-icon {
+    position: relative;
+    margin-right: 20px;
+}
+
+.input-with-icon input {
+    width: calc(100% - 30px);
+    padding: 10px;
+    padding-right: 30px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.input-with-icon i {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    pointer-events: none;
+}
+
+thead th {
+    height: 50px;
+    background-color: white;
+    color: rgba(0, 0, 0, 0.541);
+    font-weight: 100;
+}
+
+tbody td {
+    height: 70px;
+    text-align: center;
+}
+
+tbody input[type="date"], tbody select {
+    height: 40px;
+    padding: 5px;
+    width: 150px;
+}
+
+.book-btn {
+    width: 100%;
+    height: 100%;
+    background-color: black !important;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
+.search-logo{
+    margin-right: 20px;
+}
+/* About US */
+.about-us{
+    display: flex;
+    position: absolute;
+    justify-content:space-between;
+    align-items: center;
+    width:100%;
+    height: 500px;
+}
+.about-us-text{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width:100%;
+    max-width: 500px;
+    position: absolute;
+    margin-left: 100px;
+}
+.a-box1-text1{
+    color: rgb(240, 170, 46);
+    font-size: 1em;
+    letter-spacing: 1px;
+    font-weight: 600;
+    top: 20%; 
+    margin-bottom: 30px;
+    margin-top:75px;
+}
+.a-box1-text2{
+    color: black;
+    font-size: 30px;
+    font-weight: 600;
+    top: 20%;
+    margin-bottom: 30px;
+
+}
+.about-us-images{
+    display: flex;
+    justify-content:end;
+    align-items: center;
+    width:100%;
+    height: 500px;
+    margin:150px;
+}
+.a-box1-text3{
+    padding-right: 30px;
+    font-weight: 100;
+    color: rgba(0, 0, 0, 0.645) !important;
+    font-size:15px;
+    letter-spacing: 1px;
+    margin-top:50px;
+}
+.sign-img{
+    width: 150px;
+    height: 50px;
+    margin-top:65px;
+}
